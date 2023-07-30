@@ -3,12 +3,14 @@ import React from 'react'
 import { CartaChar } from '../components/CardChar'
 import { CartaHabilities } from '../components/CardHabilities'
 import { ButtonDemo } from '../components/ButtonDemo'
+import { CartaLikes } from '../components/CardLikes'
 
 const page = () => {
   return (
     <div className='grid w-full gap-4 h-full  place-items-center'>
        <CartaChar />
        <CartaHabilities/>
+       <CartaLikes />
        <div
          className="bg-accentColor w-full rounded-xl shadow"
          aria-label="card-overlay-v3"
