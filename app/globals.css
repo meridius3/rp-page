@@ -76,3 +76,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+.mainStuff{
+  background-image: url("https://cdna.artstation.com/p/assets/images/images/014/033/122/large/sean-vo-seanvo-curse-castle-forest-clearing.jpg?1542159517");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30%;
+}
