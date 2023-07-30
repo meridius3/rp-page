@@ -73,7 +73,7 @@ export const Carta = () => {
       <CardFooter className="mt-12 grid grid-cols-2 gap-4">
         <ButtonDemo elLink="/char-info" buttonText="Character Info"  />
         <ButtonDemo elLink="/rules-rol" buttonText="Rules"  />
-        <ButtonDemo elLink="/link" buttonText="User Info"  />
+        <ButtonDemo elLink="/user-info" buttonText="User Info"  />
         <ButtonDemo elLink="/link" buttonText="Likes/Dislikes"  />
       </CardFooter>
     </Card>
