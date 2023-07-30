@@ -1,9 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+  font-family: 'dragonFont'; /* Replace 'YourFontName' with the desired font name */
+  src: url('../public/fonts/dragonHunter/DragonHunter-9Ynxj.otf') format('otf'), /* adjust the path to your font file */
+      
+  /* Add more formats if needed, like .ttf or .otf */
+}
+@font-face {
+  font-family: 'reynolda'; /* Replace 'YourFontName' with the desired font name */
+  src: url('../public/fonts/reynaldoha-font/Reynaldoha-3zgEy.ttf') format(' ttf'), /* adjust the path to your font file */
+      
+  /* Add more formats if needed, like .ttf or .otf */
+}
  
 @layer base {
   :root {
+
+
+    --accent-color: 44 95% 78%;
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
  
@@ -79,6 +96,27 @@
 
 .mainStuff{
   background-image: url("https://cdna.artstation.com/p/assets/images/images/014/033/122/large/sean-vo-seanvo-curse-castle-forest-clearing.jpg?1542159517");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30%;
+
+}
+.cardTitle, .cardTitleChar, .card-title{
+  font-family: "dragonFont";
+  font-size: 2rem;
+
+ 
+}
+
+
+
+.cardDescription{
+  font-family: "reynolda";
+  font-size: 1rem;
+  text-align: center;
+}
+.cartaChar{
+  background-image: url("https://cdna.artstation.com/p/assets/images/images/032/560/634/4k/baj-singh-castlevania-in-space.jpg?1606809648");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30%;
