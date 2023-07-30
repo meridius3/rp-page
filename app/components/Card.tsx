@@ -74,7 +74,7 @@ export const Carta = () => {
         <ButtonDemo elLink="/char-info" buttonText="Character Info"  />
         <ButtonDemo elLink="/rules-rol" buttonText="Rules"  />
         <ButtonDemo elLink="/user-info" buttonText="User Info"  />
-        <ButtonDemo elLink="/link" buttonText="Credits"  />
+        <ButtonDemo elLink="/credits" buttonText="Credits"  />
       </CardFooter>
     </Card>
   );

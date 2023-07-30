@@ -11,7 +11,7 @@ const page = () => {
        <CartaUser />
        
      
-       <ButtonDemo elLink="/char-info" buttonText="Atras"  />
+       <ButtonDemo elLink="/" buttonText="Atras"  />
     </div>
   )
 }

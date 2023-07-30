@@ -2,14 +2,16 @@
 import React from 'react'
 
 import { ButtonDemo } from '../components/ButtonDemo'
-import { CartaRules } from '../components/CardRules'
+
+import { CartaCredits } from '../components/CardCredits'
+
 
 const page = () => {
   return (
-    <div className='grid w-full gap-4 h-full  place-items-center'>
-       <CartaRules />
+    <div className='grid w-full gap-4 h-screen  place-items-center'>
+       <CartaCredits />
+
      
-       
        <ButtonDemo elLink="/" buttonText="Atras"  />
     </div>
   )

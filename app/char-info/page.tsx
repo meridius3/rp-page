@@ -27,7 +27,7 @@ const page = () => {
              <h3 className="mb-1 text-lg font-bold">Trevor Belmont</h3>
          
            </div>
-           <ButtonDemo elLink="/char-info" buttonText="Atras"  />
+           <ButtonDemo elLink="/" buttonText="Atras"  />
          </div>
        </div>
     </div>
