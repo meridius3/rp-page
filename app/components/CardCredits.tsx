@@ -15,7 +15,7 @@ import Link from "next/link";
 
 export const CartaCredits = () => {
   return (
-    <Card className="relative bg-accentColor w-full ">
+    <Card className="relative bg-accentColor w-full  sm:w-[500px]">
       <CardHeader>
        
         <CardTitle className="cardTitle  text-red-600 ">Creditos</CardTitle>

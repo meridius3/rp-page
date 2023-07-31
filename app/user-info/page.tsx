@@ -7,7 +7,7 @@ import { CartaUser } from '../components/CardUser'
 
 const page = () => {
   return (
-    <div className='grid w-full gap-4 h-full  place-items-center'>
+    <div className='grid w-full gap-20 h-full  place-items-center'>
        <CartaUser />
        
      

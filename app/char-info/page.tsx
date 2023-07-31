@@ -7,12 +7,12 @@ import { CartaLikes } from '../components/CardLikes'
 
 const page = () => {
   return (
-    <div className='grid w-full gap-4 h-full  place-items-center'>
+    <div className='grid w-full  gap-4 h-full  place-items-center'>
        <CartaChar />
        <CartaHabilities/>
        <CartaLikes />
        <div
-         className="bg-accentColor w-full rounded-xl shadow"
+         className="bg-accentColor w-full sm:w-[500px] rounded-xl shadow"
          aria-label="card-overlay-v3"
        >
          <div className="w-full rounded-xl h-full flex-shrink-0">

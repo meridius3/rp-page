@@ -15,7 +15,7 @@ import { ButtonDemo } from "./ButtonDemo";
 
 export const Carta = () => {
   return (
-    <Card className="relative cartaChar lg:bg-center w-full lg:w-[300px]  h-[70ch] border-accentColor border-2">
+    <Card className="relative cartaChar sm:bg-center w-full  sm:w-[300px] sm:mt-[25ch]  h-[70ch] border-accentColor border-2">
       <AvatarDemo />
       <CardHeader>
         <CardTitle>

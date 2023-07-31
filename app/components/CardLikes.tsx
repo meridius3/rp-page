@@ -14,7 +14,7 @@ import { ButtonDemo } from "./ButtonDemo";
 
 export const CartaLikes = () => {
   return (
-    <Card className="relative bg-accentColor w-full">
+    <Card className="relative bg-accentColor w-full sm:w-[500px]">
       <CardHeader>
        
         <CardTitle className="cardTitle text-red-600 ">Likes/Dislikes</CardTitle>
