@@ -28,10 +28,10 @@ export const CartaLikes = () => {
        
         <div className="grid gap-4 text-sm justify-center items-center">
         <h2 className="card-title">Likes</h2>
-      <p>La verdad es no tengo "kinks" muy definidos, normalmente me adapto a la persona con la que me toque rolear y de asi trabajan las cosas pero bien podria listar en esta seccion los tipos de rp que mas hago</p>
+      <p>La verdad es no tengo &quot;kinks&quot; muy definidos, normalmente me adapto a la persona con la que me toque rolear y de asi trabajan las cosas pero bien podria listar en esta seccion los tipos de rp que mas hago</p>
       <ul className="list-disc">
         <li>
-            Domination (Este es basicamente un default, rara vez he visto a Trevor no ser 100% dominante pero hey, well see)
+            Domination (Este es basicamente un default, rara vez he visto a Trevor no ser 100% dominante pero hey, veremos)
         </li>
         <li>
             Power dinamic (Sea Jefe/empleada, Profesor/alumna, Maestro/aprendiz (En casos medievales) y ese tipo de cosas)
@@ -56,7 +56,7 @@ export const CartaLikes = () => {
             Public sex (yeah every sex )
         </li>
         <li>
-            Pet-play (Y diria que en esto tambien entran dinamicas "amo/sirviente" o cualquier derivado )
+            Pet-play (Y diria que en esto tambien entran dinamicas &quot;amo/sirviente&quot; o cualquier derivado )
         </li>
         <li>
             Breeding 

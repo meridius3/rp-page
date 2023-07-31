@@ -36,7 +36,7 @@ export const Carta = () => {
         <CardContent className="grid gap-8">
           <CardTitle className="text-center cardTitle text-accentColor ">Trevor Belmont</CardTitle>
           <CardDescription className="cardDescription text-accentColor">
-          I've never lost a fight to a man nor  beast
+          I&apos;ve never lost a fight to a man nor  beast
           </CardDescription>
           <p className="flex gap-4 text-sm justify-center items-center text-white mt-12">
             <svg

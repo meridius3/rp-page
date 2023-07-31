@@ -28,7 +28,7 @@ export const CartaHabilities = () => {
        
         <div className="grid gap-4 text-sm justify-center items-center">
         <h2 className="card-title">Combatiente experto</h2>
-      <p>Es un guerrero excepcional. Él está en una condición física máxima y posee 'reflejos como los de un gato'. Pudo ganar en una pelea en un bar contra cuatro adversarios a pesar de que estaba borracho</p>
+      <p>Es un guerrero excepcional. Él está en una condición física máxima y posee &apos;reflejos como los de un gato&apos;. Pudo ganar en una pelea en un bar contra cuatro adversarios a pesar de que estaba borracho</p>
       <h2 className="card-title">Dominio de las armas</h2>
       <p>Es un maestro con el látigo y la espada corta de su familia. Él ha demostrado ser capaz de una precisión extrema con su látigo y se mantuvo firme en un duelo de espadas contra Alucard; el propio hijo de dracula el cual es un espadachin experto. También es bastante capaz con otras armas, pudiendo lanzar lanzas y hachas con precisión mortal.</p>
       <h2 className="card-title">Conocimiento de monstruos</h2>
