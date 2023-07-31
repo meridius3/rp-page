@@ -6,7 +6,14 @@ import Link from "next/link";
 export function ButtonDemo({ elLink, buttonText }: { elLink: string, buttonText: string }) {
   return (
     <Link href={elLink}>
-      <Button className="w-full">{buttonText}</Button>
+      <Button className="pushable w-full">
+      <span className="shadowButton w-full"></span>
+  <span className="edge w-full"></span>
+  <span className="front w-full">
+  {buttonText}
+  </span>
+        
+        </Button>
     </Link>
   );
 }
