@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Image from 'next/image'
 import { CartaChar } from '../components/CardChar'
 import { CartaHabilities } from '../components/CardHabilities'
 import { ButtonDemo } from '../components/ButtonDemo'
@@ -16,9 +17,11 @@ const page = () => {
          aria-label="card-overlay-v3"
        >
          <div className="w-full rounded-xl h-full flex-shrink-0">
-           <img
+           <Image
              src="https://pbs.twimg.com/media/FsZpPLbXwAE0GA2?format=jpg&name=large"
              alt=""
+             width={500}
+             height={500}
              className="object-cover w-full h-full rounded-xl"
            />
          </div>

@@ -17,13 +17,13 @@ import { ButtonDemo } from "./ButtonDemo";
 export const Carta = () => {
   return (
     <motion.div
-    initial={{ x : 100 , opacity: 0 }}
-    animate={{ x : 0 , opacity: 1 }}
+    initial={{opacity: 0 }}
+    animate={{ opacity: 1 }}
     transition={{ duration: 2 }}
     viewport={{ once: true }}
 
     >
-      <Card className="relative cartaChar sm:bg-center w-full  sm:w-[300px] sm:mt-[25ch]  h-[70ch] border-accentColor border-2">
+      <Card className="relative cartaChar sm:bg-center bg-[50%] w-full  sm:w-[300px] sm:mt-[25ch]  h-[70ch] border-accentColor border-2">
         <AvatarDemo />
         <CardHeader>
           <CardTitle>
